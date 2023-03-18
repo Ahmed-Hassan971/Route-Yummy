@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Start SideBAr -->
+    <div class="sideBar">
+      <div class="side-content">
+        <ul class="side-content-link">
+          <li><a href="#search" >Search</a></li>
+          <li><a href="#categories" >Categories</a></li>
+          <li><a href="#area" >Area</a></li>
+          <li><a href="#ingredients" >Ingredients</a></li>
+          <li><a href="#contact" >Contact Us</a></li>
+        </ul>
+        <div class="side-content-footer">
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <p class="w-75">Copyright Â© 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="side-icon text-center">
+        <div class="side-icon-logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <div class="side-icon-i">
+          <i class="fa-solid fa-bars" id="open-close"></i>
+        </div>
+        <div class="side-icon-social">
+          <i class="fa-solid fa-globe"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </div>
+    <!-- End SideBAr -->
+    <!-- Start Search -->
+    <div class="container w-75" id="search">
+      </div>
+    <!-- End Search -->
+    <!-- Start main -->
+    <main class="position-relative vh-100">
+    <!-- Start Loading -->
+      <div class="loadingSpiner text-white top-0 start-0 end-0 bottom-0 justify-content-center align-items-center" style="display: none;">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+    <!-- End Loading -->
+      <div class="container">
+        <div class="row py-5 g-4 px-3 text-white" id="showData">
+     </div>
+      </div>
+    </main>
+    <!-- End main -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
